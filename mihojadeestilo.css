@@ -12,12 +12,23 @@
 	background-color: yellow;
 }
 #barralateral{
-	background-color: red;
+	background-color: #1A9FF4;
+	float:left;
+	height:957px;
 }
 
 #contenidoprincipal{
 	background-color:purple;
+	margin-left:210px;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 #pieprincipal{
 	background-color:green;
+	margin-top: -10px;
+}
+
+li{
+	background-color:gray;
+	display:inline;
 }
