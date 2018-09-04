@@ -22,7 +22,20 @@
 				/*background: -webkit-linear-gradient(left,#3803BD,#675CFE);*/
 				/* degradado -linear- para radial, se cambia de circle a ellipse */
 				background: -webkit-radial-gradient(center,ellipse, #F20505,#EAF811);
-				outline: 2px dashed #069709;
+				/*colocar borde*/
+				/*outline: 2px dashed #069709;*/
+				/* tansform para escalar , se puede inver tir con scale(1,-1) */
+				/*-moz-transform: scale(0.75);*/
+				/* dar rotacion al elemento en grados.*/
+				/*-moz-transform: rotate(30deg);*/
+				/*-moz-transform: skew(10deg);*/
+			}
+
+			/* hover es para definir que hace cuando pasa el mouse x encima.*/
+			#principal:hover{
+
+				-moz-transform:rotate(10deg);
+				-webkit-transform:rotate(10deg);
 			}
 			
 
