@@ -7,22 +7,35 @@
 	<!-- el ^ indica todo los que empiecen con ese valor -->
 	<!-- El $ selecciona los que terminan en ese valor -->
 	<!-- * Selecciona los que contengan en algun punto el valor buscado -->
+	<!--<tipo>: nth-child(numero-hijo){}-->
+	<!--p:nth-child(2){}-->
+	<!--p:nth-child(even) hijos pares, odd: impares-->
+	<!-- :first-child(){}, last-child(), only-child();-->
 	<style>
-	
-		p[name*="tos"]{
-			color: red;
-		
+		p:nth-child(even){
+		color: red;
 		}
 	
+		
 	</style>
 
 </head>
 
 <body>
 
-<p name="miselementos">hola<p>
-<p name="miselementos">Adios<p>
-<p name="elementos">Febrero<p>
+<p>hola</p>
+<p>Adios</p>
+<p>Febrero</p>
+
+<ol>
+<li>Frutas</li>
+<li><p>Manzana</p>
+<p>pera</p>
+<p>Limon</p>
+<p>melon</p></li>
+</ol>
+
+</ol>
 
 </body>
 </html>
